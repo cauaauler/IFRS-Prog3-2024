@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+
+            <!--label for="titulo", precisa do id no input, se clicar no label entra no input-->
+        <label for="titulo">Título:</label><input id="titulo" type="text" name="titulo" placeholder="xxx.xxx.xxx-xx" required>
+        <label for="editora">Editora:</label>
+        <select name="editora" id="editora">
+            <option value="a">Editora A</option>
+            <option value="b">Editora B</option>
+        </select>
+        
+        <fieldset>
+            <legend>Gênero do livro</legend>
+            <input type="checkbox" name="humor" value="humor" id="humor">
+            <label for="humor">Humor</label>
+            
+            <input type="checkbox" name="suspense" value="suspense" id="suspense">
+            <label for="suspense">Suspense</label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Já foi laçado</legend>
+            <!--radio box precisa ter o mesmo nome-->
+            <input type="radio" name="lancado" value="sim" id="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="lancado" value="nao" id="nao">
+            <label for="nao">Não</label>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+
+    </form>
+
+
+    
+</body>
+</html>

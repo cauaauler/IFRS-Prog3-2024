@@ -1,5 +1,21 @@
-div{
-    width: 2000px;
-    height: 2000px;
-    color: blue;
+/*Colocar isso em todos os sites, o * altera todos os itens do site*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+header{
+    width: auto;
+    height: 200px;
+    background-color: blue;
+    border: 5px solid black;
+    padding: 20px;
+}
+header{
+    
+}
+/*para alterar id*/
+#header{
+
+}
+
