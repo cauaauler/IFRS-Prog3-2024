@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    min-height: 300px;
+    max-height: 300px;
+} 
+div{
+    margin: 20px 0;
+} 
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    flex: 5;
+    display: flex;
+
+    justify-content: space-evenly;
+}
+.footer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    text-align: center;
+}
+.foto_de_perfil{
+    border: 5px solid black;
+}
+h1{
+    margin: 30px;
+}
