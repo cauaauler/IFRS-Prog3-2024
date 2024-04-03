@@ -1,15 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: linear-gradient(to bottom, #b8fbff, rgb(225, 244, 238), #04ff0043);
+}
+
 img{
-    min-height: 300px;
     max-height: 300px;
+    margin: 15px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10%;
+    background-image: linear-gradient(to bottom, #b8fbff, rgba(175, 231, 220, 0.927), #9dd49c);
 } 
 div{
     margin: 20px 0;
 } 
+h1{
+    margin: 30px;
+    font-family: "Architects Daughter", cursive;
+    font-size: 60px;
+}
 .container{
     min-height: 100vh;
     width: 100vw;
@@ -33,6 +47,8 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
 }
 .images{
     text-align: center;
@@ -40,6 +56,30 @@ div{
 .foto_de_perfil{
     border: 5px solid black;
 }
-h1{
-    margin: 30px;
+.girassol{
+    background-image: linear-gradient(to bottom, #ecffb8, #9dd49c);
+}
+.gelo{
+    background-image: linear-gradient(to bottom, #b8fbff, rgba(175, 231, 220, 0.927), #9dd49c);
+}
+.noz{
+    background-image: linear-gradient(to bottom, #fffbc0,  #9a9349);
+}
+.carnivora{
+    background-image: linear-gradient(to bottom, #cf92f5, #9dd49c);
+}
+.xuxu{
+    background-image: linear-gradient(to bottom, #9aff7b, #9dd49c);
+}
+.cogumelo{
+    background-image: linear-gradient(to bottom, rgb(155, 106, 220), #9dd49c);
+}
+.repolho{
+    background-image: linear-gradient(to bottom, #3ef766cf, #9dd49c);
+}
+.ervilha{
+    background-image: linear-gradient(to bottom, #aff5becf, #56b931cf);
+}
+.pimenta{
+    background-image: linear-gradient(to bottom, #bbffca, #ff9292);
 }
