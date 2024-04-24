@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(178, 178, 255);
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+    
+}
+.header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+    
+}
+.footer{
+    background-color: red;
+}
+button{
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+}
