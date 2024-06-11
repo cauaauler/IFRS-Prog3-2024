@@ -1,0 +1,81 @@
+JS
+
+//nao precisa de ; no final, mas pode
+
+//criar variável 
+var nome = qualquer_coisa
+
+//mostra o tipo da variável
+typeof nome
+
+//transformar em numero
+Number.parseInt(nome)
+
+//transformar em string
+numero.toString
+String(numero)
+
+//precisa utilizar crase, stringf basicamente	
+`se nome é ${nome}`
+
+//escrever na página
+document.write()
+
+//colocar valor em casas decimais
+var n = 10.5
+n.toFixed(2)
+->10.50
+
+//colocar valor em real
+var n 100.3
+n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+//operaçoes ternarias
+//operação ? true : false
+var x = 1
+media > 2 ? 'aprovado' : 'reprovado'
+
+//DOM
+//vai pegar o primeiro <p id="x">
+var v = document.getElementsByTagName('p')[0]
+//innerText é o texto dentro do elemento
+document.write(v.innerText);
+//innerHTML vem com toda a formatação
+//da para utilizar vários getElement, como o getElementbyId
+//da para mudar o style pelo js, por exemplo v.style.backgroundColor = green
+
+
+//é melhor usar document.querySelector(p#x), SE FOR ID É #, JÁ SE FOR CLASSE É ., document.querySelector(p.x)
+
+
+//Pega o dia da semana correspondente
+//var dia = new Date();
+//var diaSemana = dia.getDay()
+//Domingo = 0; Segunda = 1; Terça = 2; Quarta = 3; Quinta = 4;...
+//usar o switch para isso
+
+//É MELHOR USAR O LET AO INVÉS DO VAR, PORQUE O LET É LOCALMENTE ESCOPADA, LIMITANDO ERROS
+
+//Criar Arrays
+
+let numeros = [0, 3, 5]
+//Adiciona o 7 na ultima casa
+numeros.push(7)
+numeros.length
+numeros.sort()
+
+//FOR SIMPLIFICADO
+for(let x in numeros){
+    -------
+}
+
+//Encontrar o index de determinado valor
+numeros.indexOf(0) --> 0
+numeros.indexOf(9) --> -1 //Não tem no Array
+
+//PROXIMOS PASSOS
+MODULARIZAÇÃO
+REGEX
+JASON
+AJAX
+NODEJS
