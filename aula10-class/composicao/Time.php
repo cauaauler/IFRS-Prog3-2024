@@ -16,8 +16,8 @@ class Time{
         return $this->estadio;
     }
 
-    public function adicionaJogador(string $posicao):bool{
-        $jogador = new Jogador($posicao);
+    public function adicionaJogador(string $posicao, string $nome):bool{
+        $jogador = new Jogador($posicao, $nome);
         $this->jogadores[] = $jogador;
         return true;
     }

@@ -1,10 +1,10 @@
 <?php
 
-require_once "Time.class.php";
+require_once "Time.php";
 
 $time = new Time("Super Grêmio");
-$time->adicionaJogador("Goleiro");
-$time->adicionaJogador("Ponta Esquerdo");
-$time->adicionaJogador("Zagueiro");
+$time->adicionaJogador("Goleiro", "Ronaldo");
+$time->adicionaJogador("Ponta Esquerdo", "Messi");
+$time->adicionaJogador("Zagueiro", "Maradona");
 
 $time->getJogadores();
