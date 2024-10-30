@@ -1,0 +1,16 @@
+{
+    "name": "aluno/aula11-exer",
+    "authors": [
+        {
+            "name": "Cauã Auler",
+            "email": "cauaauler@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            
+            "Classes\\": "src/Classes"
+        }
+    }
+}
