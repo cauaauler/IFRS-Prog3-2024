@@ -1,16 +1,15 @@
 {
-    "name": "aluno/aula11-exer",
+    "name": "usuario/exercicio_festas",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
     "authors": [
         {
-            "name": "Cauã Auler",
+            "name": "Cauã Fabrício Auler",
             "email": "cauaauler@gmail.com"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            
-            "Classes\\": "src/Classes"
-        }
-    }
+    "require": {}
 }
