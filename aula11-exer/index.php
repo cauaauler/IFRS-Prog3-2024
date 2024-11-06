@@ -11,7 +11,7 @@ $festas = Festa::findall();
     <title>Página de Festas</title>
 </head>
 <body>
-
+<h2>Página inicial</h2>
 <table>
     <tr>
         <td>Nome</td>

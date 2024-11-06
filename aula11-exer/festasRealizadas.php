@@ -40,7 +40,7 @@ $festasAnteriores = Festa::pastPartys();
     </tbody>
 </table>
 
-<a href='formCad.php'>Adicionar Festa</a>
+<a href='index.php'>Página inicial</a>
 <a href='cidadesFestas.php'>Festas por cidade</a>
 <a href='festasRealizadas.php'>Festas Realizadas</a>
 <a href='proximasFestas.php'>Próximas Festas</a>
