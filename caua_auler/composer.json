@@ -1,0 +1,15 @@
+{
+    "name": "usuario/exercicio_festas",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cauã Auler",
+            "email": "cauaauler@gmail.com"
+        }
+    ],
+    "require": {}
+}
